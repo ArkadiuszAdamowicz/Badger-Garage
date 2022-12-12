@@ -353,8 +353,8 @@ header .fa-chevron-down {
 
 .contact {
   position: relative;
-  background-image: url("../img/team/skyline-g76b410405_1920.jpg");
-  background-position: bottom;
+  background-image: url("../img/mustang-g7bf2a2b12_1280.jpg");
+  background-position: top;
   background-attachment: fixed;
   background-size: cover;
   z-index: 0;
@@ -409,7 +409,7 @@ header .fa-chevron-down {
     font-size: 18px;
   }
   .contact {
-    background-image: url(../img/team/skyline-ga4a1d9353_1280.jpg);
+    background-image: url(../img/mustang-gb4d41e598_1920.jpg);
   }
 }
 @media (min-width: 1200px) {
