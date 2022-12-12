@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BADGER GARAGE</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+    <script src="https://kit.fontawesome.com/eb3781172a.js" crossorigin="anonymous"></script>
+</head>
+
+<body data-bs-spy="scroll" data-bs-target="#navbar" data-bs-offset="82">
+
+    <nav id="navbar" class="navbar navbar-expand-lg position-fixed top-0 w-100 py-3">
+        <div class="container">
+            <a class="navbar-brand" href="#"><i class="fa-solid fa-skull-crossbones"></i><span class="red-text"> Badger</span> Garage</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="fas fa-bars"></i>
+            </button>
+            <div class="collapse navbar-collapse " id="navbarNavAltMarkup">
+                <div class="navbar-nav ms-auto">
+                    <a class="nav-link active" href="#home">Home</a>
+                    <a class="nav-link" href="#aboutus">usługi</a>
+                    <a class="nav-link" href="#portfolio">portfolio</a>
+                    <a class="nav-link" href="#prices">ceny</a>
+                    <a class="nav-link" href="#team">zespół</a>
+                    <a class="nav-link" href="#achievements">osiągnięcia</a>
+                    <a class="nav-link" href="#contact">kontakt</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <header id="home">
+        <div class="hero-img">
+            <div class="hero-shadow"></div>
+            <div class="hero-text">
+                <h1 data-aos="fade-up" data-aos-delay="200"><span class="red-text">Badger</span> garage</h1>
+                <br>
+                <p data-aos="fade-up" data-aos-delay="400">Naprawiamy samochody z okolic Jeleniej Góry.</p>
+                <p data-aos="fade-up" data-aos-delay="400">Dbamy o każdy detal.</p><br>
+                <p data-aos="fade-up" data-aos-delay="400">"Mechanika to nie hobby... to styl życia."</p>
+                <p data-aos="fade-up" data-aos-delay="400"></p><br>
+                <a data-aos="fade-up" data-aos-delay="600" href="#aboutus" type="button"
+                    class="btn btn-outline-light">poznaj nas</a>
+            </div>
+            <a href="#aboutus"><i class="fas fa-chevron-down bounce-top "></i></a>
+        </div>
+    </header>
+
+    <main>
+        <section id="aboutus" class="aboutus bg-light py-5">
+            <div class="container">
+                <h2>usługi</h2>
+                <div class="underline"></div>
+
+                <div class="row">
+                    <div class="col-sm-6 col-md-4 text-center aboutus-hover" data-aos="zoom-in" data-aos-delay="200">
+                        <p><i class="fa-solid fa-snowflake"></i></p>
+                        <p class="aboutus-card-title mb-1">Wymiana opon</p>
+                        <p class="aboutus-card-text">Wymieniamy koła i opony o każdej porze roku. <br> Nie daj się zaskoczyć zmianie pogody. </p>
+                    </div>
+                    <div class="col-sm-6 col-md-4 text-center aboutus-hover" data-aos="zoom-in" data-aos-delay="200">
+                        <p><i class="fa-solid fa-screwdriver-wrench"></i></p>
+                        <p class="aboutus-card-title mb-1">hamulce</p>
+                        <p class="aboutus-card-text">Wymieniamy hamulce, naprawiamy usterki.</p>
+                    </div>
+                    <div class="col-sm-6 col-md-4 text-center aboutus-hover" data-aos="zoom-in" data-aos-delay="200">
+                        <p><i class="fa-solid fa-oil-can"></i></p>
+                        <p class="aboutus-card-title mb-1">wymiana oleju i filtrów</p>
+                        <p class="aboutus-card-text">Używamy materiałów najwyższej jakości.</p>
+                    </div>
+                    <div class="col-sm-6 col-md-4 text-center aboutus-hover" data-aos="zoom-in" data-aos-delay="200">
+                        <p><i class="fa-solid fa-screwdriver"></i></p>
+                        <p class="aboutus-card-title mb-1">serwis i bieżące naprawy</p>
+                        <p class="aboutus-card-text">Lubimy dobrze zjeść przed przystąpieniem do naszych zadań.</p>
+                    </div>
+                    <div class="col-sm-6 col-md-4 text-center aboutus-hover" data-aos="zoom-in" data-aos-delay="200">
+                        <p><i class="fa-solid fa-car-battery"></i></p>
+                        <p class="aboutus-card-title mb-1">kasowanie błędów</p>
+                        <p class="aboutus-card-text">Wykonujemy pełną diagnostykę i kasujemy błędy.</p>
+                    </div>
+                    <div class="col-sm-6 col-md-4 text-center aboutus-hover" data-aos="zoom-in" data-aos-delay="200">
+                        <p><i class="fa-solid fa-handshake"></i></p>
+                        <p class="aboutus-card-title mb-1">świetne relacje</p>
+                        <p class="aboutus-card-text">Dbamy o relacje z naszymi klientami. Zawsze wykonujemy usługę biorąc pod uwagę potrzeby klienta. Chętnie doradzamy.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section class="aboutus-hero py-5">
+            <div class="aboutus-shadow"></div>
+            <div class="container py-4">
+                <h2>Jak działamy?</h2>
+                <div class="underline"></div>
+                <div class="row">
+                    <div class="col-lg-4 text-center aboutus-hero-item">
+                        <p class="aboutus-hero-title mb-1">SKONTAKTUJ SIĘ Z NAMI</p>
+                        <p><i class="fa-solid fa-square-phone"></i></p>
+                        <p class="aboutus-hero-text">Zadzwoń do nas i umów wizytę.</p>
+                    </div>
+                    <div class="col-lg-4 text-center aboutus-hero-item">
+                        <p class="aboutus-hero-title mb-1">DIAGNOSTYKA</p>
+                        <p><i class="fa-solid fa-desktop"></i></p>
+                        <p class="aboutus-hero-text">Diagnozujemy usterkę.</p>
+                        <p>Zadzwonimy do Ciebie z wyceną.</p>
+                    </div>
+                    <div class="col-lg-4 text-center aboutus-hero-item">
+                        <p class="aboutus-hero-title mb-1">NAPRAWA</p>
+                        <p><i class="fa-solid fa-screwdriver-wrench"></i></p>
+                        <p class="aboutus-hero-text">Naprawimy Twój samochód.</p>
+                        <p>Skontaktujemy się gdy będzie gotrowy do odbioru.</p>
+                    </div>
+                
+                </div>
+            </div>
+        </section>
+
+        <section id="portfolio" class="portfolio py-5">
+            <h2>portfolio</h2>
+            <div class="underline"></div>
+
+            <div class="container pb-4">
+
+                <!-- PORTFOLIO NA MOBILE -->
+                <div class="card-group d-lg-none">
+                    <div class="card me-sm-3">
+                        <img src="img/gaming-2259191_1920.jpg" class="card-img-top" alt="Pro-X Football">
+                        <div class="card-body">
+                            <h5 class="card-title">Pro-X Football</h5>
+                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                                additional content. This content is a little bit longer.</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="img/car-lettering-1547641_1920.jpg" class="card-img-top" alt="Racing GT">
+                        <div class="card-body">
+                            <h5 class="card-title">Racing GT</h5>
+                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                                additional content. This card has even longer content than the first to show that equal
+                                height action.</p>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- PORTFOLIO NA DESKTOPY -->
+
+                <div id="carouselExampleCaptions" class="carousel slide d-none d-lg-block" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0"
+                            class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="img/gaming-2259191_1920.jpg" class="d-block w-100"
+                                alt="Okładka gry Pro-X Football">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Pro-X Football</h5>
+                                <p>Some representative placeholder content for the first slide.</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/car-lettering-1547641_1920.jpg" class="d-block w-100"
+                                alt="Okładka gry Racing GT">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Racing GT</h5>
+                                <p>Some representative placeholder content for the third slide.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+
+            </div>
+        </section>
+
+        <section id="prices" class="prices py-5 bg-light">
+            <h2>Cennik</h2>
+            <div class="underline"></div>
+            <div class="container">
+                <div class="price-wrap row text-center justify-content-center">
+
+                    <div class="col-md-6 col-xl-4">
+                        <div class="price-box">
+                            <h3>mobile</h3>
+                            <hr>
+                            <p><span>Urządzenia:</span> <i class="fas fa-mobile-alt"></i></p>
+                            <p><span>Długość gry:</span> Krótka</p>
+                            <p><span>Grafika:</span> Średnia</p>
+                            <p><span>Online:</span> Brak</p>
+                            <p class=" price-tag">499 zł</p>
+                            <button class="btn btn-secondary">Zamawiam</button>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 col-xl-4">
+                        <div class="price-box">
+                            <h3>mobile & pc</h3>
+                            <hr>
+                            <p><span>Urządzenia:</span> <i class="fas fa-mobile-alt"></i> <i class="fas fa-desktop"></i>
+                            </p>
+                            <p><span>Długość gry:</span> Średnia</p>
+                            <p><span>Grafika:</span> Ładna</p>
+                            <p><span>Online:</span> Tak</p>
+                            <p class=" price-tag">2499 zł</p>
+                            <button class="btn btn-primary">Zamawiam</button>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-xl-4">
+                        <div class="price-box">
+                            <h3>full pack</h3>
+                            <hr>
+                            <p><span>Urządzenia:</span> <i class="fas fa-mobile-alt"></i> <i class="fas fa-desktop"></i>
+                                <i class="fas fa-gamepad"></i>
+                            </p>
+                            <p><span>Długość gry:</span> Długa</p>
+                            <p><span>Grafika:</span> Najlepsza</p>
+                            <p><span>Online:</span> Tak</p>
+                            <p class="price-tag">4999 zł</p>
+                            <button class="btn btn-secondary">Zamawiam</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="text-center">
+                    <p class="price-info">Skorzystaj z jednego z trzech głównych pakietów, lub <a
+                            href="#contact">skontaktuj
+                            się</a> z nami i ustasl warunki indywidualnie!</p>
+                    <p class="text-muted">Pakiet <strong>FULL PACK</strong> zawiera wersję gier na urządzenia mobilne,
+                        PC
+                        oraz konsole.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="team" class="team py-5">
+            <h2>team</h2>
+            <div class="underline"></div>
+            <div class="container">
+                <div class="card-group team-carousel">
+                    <div class="card mx-3">
+                        <img src="img/team/adult-2449725_1920.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">CEO</h5>
+                            <p class="card-text">This card has supporting text below as a natural lead-in to additional
+                                content..</p>
+                        </div>
+                        <div class="card-footer d-flex justify-content-around">
+                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                    <div class="card mx-3">
+                        <img src="img/team/woman-1320810_1920.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">HR</h5>
+                            <p class="card-text">This card has supporting text below as a natural lead-in to additional
+                                content.</p>
+                        </div>
+                        <div class="card-footer d-flex justify-content-around">
+                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                    <div class="card mx-3">
+                        <img src="img/team/building-2762241_1920.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Tomek</h5>
+                            <p class="card-text">This card has supporting text below as a natural lead-in to additional
+                                content.</p>
+                        </div>
+                        <div class="card-footer d-flex justify-content-around">
+                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                    <div class="card mx-3">
+                        <img src="img/team/entrepreneur-2326419_1920.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">John</h5>
+                            <p class="card-text">This card has supporting text below as a natural lead-in to additional
+                                content.</p>
+                        </div>
+                        <div class="card-footer d-flex justify-content-around">
+                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                    <div class="card mx-3">
+                        <img src="img/team/women-1209678_1920.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Dział jakości</h5>
+                            <p class="card-text">This card has supporting text below as a natural lead-in to additional
+                                content.</p>
+                        </div>
+                        <div class="card-footer d-flex justify-content-around">
+                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="team-shadow"> </div>
+        </section>
+
+        <section id="achievments" class="achievments py-5">
+            <h2>osiągnięcia</h2>
+            <div class="underline"></div>
+            <div class="container">
+                <div class="row text-center achievments-list">
+                    <div class="col-md-6 col-lg-4 col-xl-2 achievment">
+                        <i class="fas fa-thumbs-up"></i>
+                        <p class="achievment-number">100%</p>
+                        <p class="achievment-text">Lorem, ipsum dolor sit amet consectetur adipisicing.</p>
+                    </div>
+                    <div class="col-md-6 col-lg-4 col-xl-2 achievment">
+                        <i class="fas fa-trophy"></i>
+                        <p class="achievment-number">37</p>
+                        <p class="achievment-text">Lorem ipsum dolor sit amet.</p>
+                    </div>
+                    <div class="col-md-6 col-lg-4 col-xl-2 achievment">
+                        <i class="fas fa-user-friends"></i>
+                        <p class="achievment-number">7</p>
+                        <p class="achievment-text">Lorem, ipsum dolor sit amet consectetur adipisicing.</p>
+                    </div>
+                    <div class="col-md-6 col-lg-4 col-xl-2 achievment">
+                        <i class="far fa-building"></i>
+                        <p class="achievment-number">58</p>
+                        <p class="achievment-text">Lorem ipsum dolor sit amet.</p>
+                    </div>
+                    <div class="col-md-6 col-lg-4 col-xl-2 achievment">
+                        <i class="fas fa-dice"></i>
+                        <p class="achievment-number">43</p>
+                        <p class="achievment-text">Lorem, ipsum dolor sit amet consectetur adipisicing.</p>
+                    </div>
+                    <div class="col-md-6 col-lg-4 col-xl-2 achievment">
+                        <i class="fas fa-share-alt"></i>
+                        <p class="achievment-number">80 000</p>
+                        <p class="achievment-text">Lorem ipsum dolor sit amet.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="contact" class="contact py-5">
+            <h2>kontakt</h2>
+            <div class="underline"></div>
+            <div class="container">
+                <div class="row text-center contact-us">
+                    <div class="col sm-6 col-lg-4 contact-item order-1">
+                        <h3>główna siedziba</h3>
+                        <p>ul. Długa 2</p>
+                        <p>70-460 Szczecin</p>
+                        <p>+48 665 123 123</p>
+                        <p>mail@mail.pl</p>
+                    </div>
+                    <div class="col-lg-4 order-0 order-lg-1 contact-item">
+                        <h3>social media</h3>
+                        <div class="social-media">
+                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                    <div class="col sm-6 col-lg-4 contact-item order-1">
+                        <h3>siedziba w londynie</h3>
+                        <p>000 -000 King Street</p>
+                        <p>london 000 000 </p>
+                        <p>+44 665 123 123</p>
+                        <p>mail-londol@mail.pl</p>
+                    </div>
+                </div>
+            </div>
+            <div class="contact-shadow"></div>
+        </section>
+    </main>
+
+    <footer class="bg-dark text-light py-4 text-center">
+        <p class="mb-0">&copy; 2022 | ProGamrers</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous">
+        </script>
+
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            startEvent: 'DOMContentLoaded',
+            offset: 200,
+            once: true
+        });
+    </script>
+    <script src="js/slicksetting.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
